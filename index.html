@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Calculadora</title>
+</head>
+<body>
+  <div class="global">
+    <header>
+      <h1>Calc. iPhone</h1>
+      <input type="text" autocomplete="off" placeholder="0">
+    </header>
+    <main>
+      <div id="keys">
+        <button class="greyBtns" id="C">AC</button>
+        <button name="keyBtn" class="greyBtns" id="np">+/-</button>
+        <button name="keyBtn" class="greyBtns" id="Dividido100">%</button>
+        <button name="keyBtn" class="orangeBtns" data-keys="/">÷</button>
+        <button name="keyBtn" class="btnKey" data-keys="7">7</button>
+        <button name="keyBtn" class="btnKey" data-keys="8">8</button>
+        <button name="keyBtn" class="btnKey" data-keys="9">9</button>
+        <button name="keyBtn" class="orangeBtns" data-keys="*">X</button>
+        <button name="keyBtn" class="btnKey" data-keys="4">4</button>
+        <button name="keyBtn" class="btnKey" data-keys="5">5</button>
+        <button name="keyBtn" class="btnKey" data-keys="6">6</button>
+        <button name="keyBtn" class="orangeBtns" data-keys="-">-</button>
+        <button name="keyBtn" class="btnKey" data-keys="1">1</button>
+        <button name="keyBtn" class="btnKey" data-keys="2">2</button>
+        <button name="keyBtn" class="btnKey" data-keys="3">3</button>
+        <button name="keyBtn" class="orangeBtns" data-keys="+">+</button>
+        <button name="keyBtn" class="btnKey" id="n0" data-keys="0">0</button>
+        <button name="keyBtn" class="btnKey" data-keys=".">,</button>
+        <button class="orangeBtns" id="enter" ondblclick="calcular()">=</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
